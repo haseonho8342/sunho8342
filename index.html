@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>하선호 포트폴리오</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #eef2f6;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 30px;
+      background: #f8fafc;
+      border-bottom: 3px solid #1f3c6d;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      color: #1f3c6d;
+    }
+
+    header p {
+      margin-top: 10px;
+      color: #666;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 30px auto;
+    }
+
+    .section {
+      background: #fff;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 14px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .section h2 {
+      border-left: 6px solid #1f3c6d;
+      padding-left: 12px;
+      color: #1f3c6d;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: #f4f7fb;
+      padding: 18px;
+      border-radius: 12px;
+      border-top: 4px solid #1f3c6d;
+    }
+
+    .card strong {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .tags span {
+      display: inline-block;
+      background: #dbe7ff;
+      color: #1f3c6d;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      margin: 4px 3px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>하선호 (Ha Sun-ho)</h1>
+  <p>컴퓨터공학 | AI & 웹 개발</p>
+</header>
+
+<div class="container">
+
+  <div class="section">
+    <h2>Education & Philosophy</h2>
+    <p>
+      기초를 탄탄히 쌓고 실제 서비스 구현까지 연결하는 개발자를 목표로 합니다. 
+      AI, 웹 개발, 그리고 실전 프로젝트 경험을 통해 성장하고 있습니다.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>2026년 목표</h2>
+    <div class="grid">
+
+      <div class="card">
+        <strong>프로그래밍</strong>
+        Java, Python 알고리즘 강화
+      </div>
+
+      <div class="card">
+        <strong>웹 개발</strong>
+        Flask 기반 서비스 제작
+      </div>
+
+      <div class="card">
+        <strong>AI 프로젝트</strong>
+        YOLO 객체 인식 시스템 고도화
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>주요 프로젝트 · 졸업작품</h2>
+
+    <div class="card">
+      <strong>🕶️ 시각장애인을 위한 스마트 안경</strong>
+      <p>
+        YOLO 객체 인식을 활용하여 주변 환경을 분석하고
+        음성(TTS)으로 사용자에게 안내하는 시스템
+      </p>
+      <p><b>팀:</b> 스시 🍣</p>
+
+      <div class="tags">
+        <span>Python</span>
+        <span>YOLOv8</span>
+        <span>OpenCV</span>
+        <span>TTS</span>
+        <span>Raspberry Pi</span>
+      </div>
+    </div>
+
+    <div class="grid">
+
+      <div class="card">
+        <strong>🤖 객체 인식 안내 시스템</strong>
+        실시간 객체 감지 및 음성 안내 기능 구현
+      </div>
+
+      <div class="card">
+        <strong>💬 채팅 프로그램</strong>
+        Java 소켓 기반 실시간 채팅 서비스
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
